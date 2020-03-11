@@ -1,0 +1,32 @@
+
+.brief {
+  background-color: $primary-color;
+  // height:30vh;
+  margin: 0em;
+  padding:0em 0em;
+  text-align: center;
+
+  p {
+      text-align: center;
+      color: $dark-color;
+
+      strong {
+          color:$secondary-color;
+      }
+    
+      @media (min-width:320px) {
+          font-size:1em;
+          padding: 2.5em 1.3em;
+          margin-bottom: 0;
+      }
+         
+      @media (min-width:425px) {
+          font-size:1.3em;
+          padding: 3em .5em 3em;
+          margin-bottom: 0;
+      }
+
+  }
+
+ 
+}

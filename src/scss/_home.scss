@@ -1,0 +1,45 @@
+
+.home {
+  background-image: url("../img/flower.jpg");
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width:320px) {
+      height: 45vh;
+  }
+  
+
+}
+
+
+.home .intro {
+  // position: absolute;
+  text-align: center;
+  margin:0;
+  padding: 2em 0;
+  width: 100vw;
+  height: 45vh;
+  color: rgb(231, 221, 187);
+  background-color: rgba(35, 35, 35,.5);
+  @media (min-width:420px) {
+      padding: 2.5em;
+  }
+
+
+  h1 {
+    max-height: 50vh;
+  }
+
+  h2 {
+  font-size:1.8em;
+    max-height: 50vh;
+    font-weight:300;
+  }
+
+  span {
+    font-size:.8em;
+    
+  }
+}

@@ -1,0 +1,21 @@
+
+.connect {
+  padding:0em 1.5em;
+  text-align: center;
+  background-color: $dark-color;
+  // color:$dark-color;
+  height:20vh;
+  width: 100vw;
+
+  h4 {
+    padding:0;
+    color:$primary-color;
+      // margin-top:0;
+  }
+
+  a {
+    padding:1em;
+  }
+
+
+}

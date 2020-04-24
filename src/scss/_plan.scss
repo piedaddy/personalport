@@ -4,7 +4,9 @@
   justify-content: baseline;
   background-color: $dark-color;   
   width: 100vw;
-  height: 50vh;
+  @media (min-width:320px) {
+    height: 50vh;
+  }
 
 }
 

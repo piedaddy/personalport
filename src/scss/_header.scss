@@ -1,6 +1,10 @@
 header{
   display:flex; 
   width:100vw;
+  // position:fixed;
+
+
+
 }
 
 header div {
@@ -8,7 +12,7 @@ header div {
   position: relative;
   background-color: $secondary-color;
 
-
+  
 }
 
 header img {
@@ -30,27 +34,47 @@ header img {
  }
 
 header nav {
-  background-color: $secondary-color;
+  //background-color: $secondary-color;
+  background-color: $dark-color;
+  //border-bottom:2px dotted $secondary-color;
+
+  position:fixed;
+  width:100vw;
+  top:-5px;
+  left:0;
+  right:0;
+  //z-index: 9999;
   flex-grow:1;
   display:flex;
+  @media (min-width:320px) {
+        height:2.5em;
+        
+   }
 
 }
 
 header nav a {
   text-decoration: none;
   flex-grow:1;
-  color: $primary-color;
+  color: $secondary-color;
   font-weight:bold;
-  // border-left: 1px solid white;
   display:flex;
   justify-content: center;
   align-items: center;
-  padding:.5em;
-  font-size:.8em;
 
-  // @media (min-width:320px) {
-  //     font-size: .8em;
-  // }
+  @media (min-width:320px) {
+    padding:.5em;
+    font-size:.8em;
+  }
+  @media (min-width:425px) {
+    font-size:.9em;
+  }
+  @media (min-width:517px) {
+    font-size:1em;
+  }
+  @media (min-width:1000px) {
+    font-size:1em;
+  }
 }
 
 

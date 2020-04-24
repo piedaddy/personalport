@@ -29,10 +29,11 @@
     display: inline-block;
     text-decoration: none;
     width: 1.6em;
-    margin-right: .2em;
+   // margin-right: .2em;
     text-align: center;
     color: #81ABFF;
-    padding-bottom: 1em;
+    //color:$dark-color;
+    //padding-bottom: 1em;
     /* opacity: .8; */
    
     /* For safety - reset parent styles, that can break glyph codes*/
@@ -44,7 +45,7 @@
    
     /* Animation center compensation - margins should be symmetric */
     /* remove if not needed */
-    margin-left: .2em;
+   // margin-left: .2em;
    
     /* you can be more comfortable with increased icons size */
     /* font-size: 120%; */
@@ -55,6 +56,17 @@
    
     /* Uncomment for 3D effect */
     /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  
+    @media(min-width: 320px){
+      font-size: 4em;
+      padding: 0 .4em;
+    }
+    
+
+    @media(min-width: 1000px){
+      padding: 0 1em;
+      font-size: 4em;
+    }
   }
 
   
